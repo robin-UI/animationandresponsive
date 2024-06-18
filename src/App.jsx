@@ -3,8 +3,9 @@
 // import viteLogo from '/vite.svg'
 import { CssBaseline, ThemeProvider } from '@mui/material'
 import './App.css'
-import Home from './Home/Home'
+// import Home from './Home/Home'
 import { lightTheme } from './theme'
+import Pricing from './Pricing/Pricing'
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
       theme={lightTheme}
     >
       <CssBaseline />
-      <Home/>
+      {/* <Home/> */}
+      <Pricing />
     </ThemeProvider>
     </>
   )
